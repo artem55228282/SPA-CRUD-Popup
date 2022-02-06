@@ -15,6 +15,11 @@ const routes = [
     name: 'home.page',
     component: () => import('../views/Home.vue')
   },
+  {
+    path: '/sort/:sort/page/:page',
+    name: 'home.sort.page',
+    component: () => import('../views/Home.vue')
+  },
 ]
 
 const router = new VueRouter({

@@ -60,7 +60,7 @@ export default {
          await axios.post(`http://94.158.54.194:9092/api/product`, newProduct)
          this.$emit("close")
          this.$emit("hide")
-         this.$emit("fetchData")
+         this.$emit("fetch")
       }
   }
 };
